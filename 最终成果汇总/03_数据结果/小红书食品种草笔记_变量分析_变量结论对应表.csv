@@ -1,0 +1,9 @@
+﻿变量,对应比较,初步发现
+positive_flag / negative_flag / neutral_flag,正向、负向、中性文本的点赞表现,positive_flag 对应样本平均点赞高于 negative_flag，说明正向情绪文本整体更容易获得点赞。
+sentiment_intensity_level,negative、neutral、low_positive、medium_positive、high_positive 的差异,正向情绪内部不同强度层级存在差异，说明情绪强度并非越高越好。
+sentiment_density,低、中、高情绪密度分组比较,情绪密度越高，平均点赞表现越高，说明情绪表达越集中越容易引发互动。
+positive_ratio / negative_ratio,不同情感结构分组比较,高正向占比文本整体点赞表现更好，说明文本内部情绪结构会影响互动表现。
+mixed_review_flag,单一评价与混合评价比较,混合评价文本平均点赞低于单一评价文本，说明正负并存内容更容易削弱互动表现。
+imagenumber,不同配图数量样本比较,多图内容整体互动表现好于少图内容，说明图文呈现方式仍是重要辅助因素。
+time_period,凌晨、上午、下午、晚上比较,上午、下午和晚上发布内容的点赞表现整体高于凌晨。
+likes_winsorized / log_likes_winsorized,原始点赞热度优化处理,缩尾后点赞指标能够减弱爆款极端值干扰，更适合后续稳健分析。

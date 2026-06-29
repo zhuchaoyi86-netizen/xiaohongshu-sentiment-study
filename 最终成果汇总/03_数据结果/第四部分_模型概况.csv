@@ -1,0 +1,5 @@
+﻿指标,值
+样本量,2899
+调整R²,0.1596
+AIC,12981.71
+模型公式,log_likes_winsorized ~ sentiment_density + sentiment_score_winsorized + positive_flag + negative_flag + mixed_review_flag + len100 + imagenumber + hashtag_count + exclamation_count + question_count + marketing_phrase_flag + t_morning + t_afternoon + t_evening

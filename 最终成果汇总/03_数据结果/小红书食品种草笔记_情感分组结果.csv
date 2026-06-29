@@ -1,0 +1,7 @@
+﻿group,count,avg_likes,avg_log_likes,avg_score
+positive,2403,2108.4948,5.0863,4.6558
+negative,123,1591.6341,4.7832,-2.0976
+neutral,373,2140.7909,4.8479,0.0
+high_intensity,712,1860.6713,5.3604,9.5758
+medium_intensity,797,2160.537,4.9641,3.8281
+low_positive,894,2259.4709,4.9768,1.4754

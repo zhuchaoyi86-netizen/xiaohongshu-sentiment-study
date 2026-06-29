@@ -1,0 +1,7 @@
+﻿变量层级,变量,作用对象,预期关系,解释
+核心自变量,情绪密度,log_likes_winsorized,正向,情绪表达越集中，点赞热度越高
+核心自变量,情感得分(缩尾),log_likes_winsorized,需结合密度解释,单纯堆叠情感词未必带来更高热度
+结构变量,混合评价,log_likes_winsorized,负向,正负信息并存会削弱点赞表现
+控制变量,配图数量,log_likes_winsorized,正向,图文呈现越丰富，互动越强
+控制变量,发布时间,log_likes_winsorized,正向,上午、下午、晚上优于凌晨
+控制变量,文本长度,log_likes_winsorized,弱正向,较长文本可能提供更充分的信息
